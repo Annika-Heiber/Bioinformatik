@@ -138,5 +138,5 @@ test_inch_to_cm()
 
 
 
-# bei der wariante mit der eingabe von n komm 4.9 raus ??
-# bei der wariante mit inch wert eingeben kommt 12.25 raus 
+# bei der variante mit der eingabe von n komm 4.9 raus ??
+# bei der variante mit inch wert eingeben kommt 12.25 raus 
