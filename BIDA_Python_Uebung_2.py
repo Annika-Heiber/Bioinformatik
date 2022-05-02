@@ -8,23 +8,26 @@
 # raise Exception("Dimension-Error")
 
 
-# def matrix_mult(m1, m2):
-#     return -- Ihre Lösung hier --
+def matrix_mult(m1, m2):
+    for i in range(len(m1)):
+        for k in range(len(m2)):
+            m[i][k] = m1[i][k] * m2[i][k]
+    return m
 
 
-# def check_matrix(m):
-#     if -- wann ist die Eingabe 'm' nicht korrekt? --:
-#         raise Exception("--was soll hier stehen?--")
-#     else:
-#         -- Ihre Lösung hier. Tip: Was soll diese Funktion tun, wenn die Eingabe in Ordnung ist? --
 
+def check_matrix(m):
+    if m1 is not m2:
+        raise Exception("Dimension-Error")                                
+    else:
+        print(m)                                              
 # Test the check_matrix function you will implement above:
 def test_check_matrix():
     # Check wether the function that is to be tested has been defined yet:
     if not "check_matrix" in globals():
         print("The function 'check_matrix' that is to be tested has not been defined yet")
         # Warum steht hier ein 'return'? Was erspart das im folgenden Teil der
-        # Funktion 'test_check_matrix'?
+        # Funktion 'test_check_matrix'?0
         return
 
     # ======================================
