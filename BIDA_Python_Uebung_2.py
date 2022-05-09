@@ -17,10 +17,11 @@ def matrix_mult(m1, m2):
 
 
 def check_matrix(m):
-    if m1 is not m2:
-        raise Exception("Dimension-Error")                                
+    for i in range(1, len(m)-1):
+        if not len(m[O]) == len(m[1]):
+            raise Exception("Dimension-Error")                                
     else:
-        print(m)                                              
+        print("korrekt")                                              
 # Test the check_matrix function you will implement above:
 def test_check_matrix():
     # Check wether the function that is to be tested has been defined yet:
@@ -52,6 +53,7 @@ def test_check_matrix():
     check_matrix(m_correct_1)
     # ... test four:
     check_matrix(m_correct_2)
+    print("checkmatrix funktioniert")
 
 # End of test_check_matrix
 
