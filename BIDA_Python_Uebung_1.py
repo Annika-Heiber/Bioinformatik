@@ -68,45 +68,6 @@ def test_calc_3():
 
 test_calc_3()
 
-#Aufgaben 9. und 10. aus dem Übungsblatt
-
-# 1 inch entspricht 2,45 Zentimeter 
-# (a) 2 inch
-# (b) 50 inch 
-# (c) 92,7 inch
-
-
-n = 50
-
-a = n*2,45
-print(a)
-
-
-def inch_to_cm(inch): 
-    return a
-    a = 2*2,45
-
-
-
-# Test the inch_to_cm function you will implement above:
-def test_inch_to_cm():
-    # Check wether the function that is to be tested has been defined yet:
-    if not "inch_to_cm" in globals():
-        print("The function 'inch_to_cm' that is to be tested has not been defined yet")
-    else:
-        # Function has been defined, so test it:
-        inch_argument = 5
-        expected_result = 12.7
-        actual_result = inch_to_cm(inch_argument)
-        if expected_result != actual_result:
-            print("inch_to_cm() gave result ", actual_result, ", but expected is ", expected_result)
-        else:
-            print("inch_to_cm() worked as expected")
-
-
-# Execute the above defined test of the inch_to_cm function:
-test_inch_to_cm()
-
 
 #Aufgaben 9. und 10. aus dem Übungsblatt
 
