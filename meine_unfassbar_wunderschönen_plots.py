@@ -16,3 +16,4 @@ plt.savefig('filename.png')
 #plot x power 3.png)
 #8. Plotten Sie beide Funktionen f in blau und g in rot in denselben Graphen. (Datei
 #plot x power 2 and 3.png)
+
